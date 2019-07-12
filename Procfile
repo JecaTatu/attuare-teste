@@ -1,1 +1,0 @@
-web: gunicorn attuare.wsgi --log-file -
