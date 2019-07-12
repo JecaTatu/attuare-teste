@@ -26,7 +26,7 @@ SECRET_KEY = '(ip5(w81=qa2&e*e5h&@zhwkmj@2-b055_nv3zp_3(0m02mzv-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['167.71.181.189']
 
 
 # Application definition
