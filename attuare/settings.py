@@ -74,13 +74,7 @@ WSGI_APPLICATION = 'attuare.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'HOST': 'drf-db',
-        'PORT': '5432',
-    }
+    'default': 'default': dj_database_url.config(conn_max_age=600)
 }
 
 
